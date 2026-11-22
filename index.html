@@ -1,0 +1,347 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Anshu Roy</title>
+  <meta name="description" content="Anshu Roy, Engineering Physics student at NIT Hamirpur. Backend systems, fintech and agentic AI.">
+  <meta name="theme-color" content="#ECE8E1">
+  <meta property="og:title" content="Anshu Roy">
+  <meta property="og:description" content="Engineering Physics at NIT Hamirpur. Backend systems, fintech and agentic AI.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a href="#top" class="mark" aria-label="Anshu Roy, back to top">Anshu Roy</a>
+      <button class="menu-btn" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav id="site-nav" class="nav" aria-label="Primary">
+        <a href="#work">Work</a>
+        <a href="#projects">Projects</a>
+        <a href="#campus">Campus</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- Intro -->
+    <section class="intro wrap" id="top">
+      <p class="eyebrow">B.Tech Engineering Physics &middot; NIT Hamirpur</p>
+      <h1>Anshu Roy</h1>
+      <p class="lede">
+        I build backend systems, fintech tools and agentic AI, and now and then the
+        hardware they run on. Third year at NIT Hamirpur with a minor in Computer
+        Science. Originally from Mumbai.
+      </p>
+
+      <dl class="facts">
+        <div>
+          <dt>Now</dt>
+          <dd>Co-lead, Team Abraxas. Building a GoTo telescope mount.</dd>
+        </div>
+        <div>
+          <dt>Recently</dt>
+          <dd>Full stack developer intern at Unisole.</dd>
+        </div>
+        <div>
+          <dt>Looking for</dt>
+          <dd>SDE and AI research internships, summer 2027.</dd>
+        </div>
+      </dl>
+
+      <div class="intro-links">
+        <a class="btn" href="#projects">See projects</a>
+        <a class="link-arrow" href="https://github.com/AnshuRoy25" target="_blank" rel="noopener">GitHub</a>
+        <!-- EDIT: uncomment once resume.pdf is in the assets folder
+        <a class="link-arrow" href="assets/resume.pdf" target="_blank" rel="noopener">Resume</a>
+        -->
+      </div>
+    </section>
+
+    <!-- Numbers -->
+    <section class="wrap" aria-label="Highlights">
+      <ul class="numbers">
+        <li><span class="num">8.59</span><span class="cap">CGPA, Engineering Physics</span></li>
+        <li><span class="num">Top 10</span><span class="cap">of 418 teams, GenAI Mumbai</span></li>
+        <li><span class="num">11th</span><span class="cap">of 850+ teams, AI Hack Matrix INNOVFEST</span></li>
+        <li><span class="num">400+</span><span class="cap">freshers trained at RoboQuest</span></li>
+      </ul>
+    </section>
+
+    <!-- Work -->
+    <section class="section wrap" id="work">
+      <h2 class="label"><span>01</span>Work</h2>
+      <div class="content">
+        <article class="job">
+          <header class="job-head">
+            <div>
+              <h3>Full Stack Developer Intern</h3>
+              <p class="org">Unisole</p>
+            </div>
+            <p class="when">May &ndash; Aug 2026</p>
+          </header>
+
+          <p class="sub">Learning management platform</p>
+          <ul class="bullets">
+            <li>Built the backend in Node.js, Express and MongoDB, with Google OAuth (Passport.js) and OTP login.</li>
+            <li>Secure video streaming through Azure Blob Storage with short-lived SAS tokens, and Busboy streaming uploads for large lecture files.</li>
+            <li>Integrated Razorpay for course payments and Cloudinary for media.</li>
+          </ul>
+
+          <p class="sub">WhatsApp freight marketplace</p>
+          <ul class="bullets">
+            <li>Wrote the full backend for a marketplace that runs inside WhatsApp, on the WhatsApp Cloud API with webhook handling and stateful conversation flows.</li>
+            <li>Migrated the data layer from MongoDB to PostgreSQL on Supabase with a six-table schema.</li>
+            <li>Built supplier and driver matching plus an auction and bidding system driven by cron jobs.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section wrap" id="projects">
+      <h2 class="label"><span>02</span>Projects</h2>
+      <div class="content">
+
+        <article class="project">
+          <div class="p-meta">
+            <p class="p-ctx">SEBI Securities Market TechSprint 2026</p>
+          </div>
+          <div class="p-body">
+            <h3>RegMind.ai</h3>
+            <p>
+              An agentic compliance platform that reads SEBI and RBI circulars and turns them into
+              structured engineering tasks. It separates master circulars from amendments, extracts
+              obligations into a fixed schema, and runs them through three layers: sorting, action
+              generation, and a state machine that keeps verifying compliance as rules change.
+            </p>
+            <p class="stack">FastAPI &middot; Google ADK &middot; PostgreSQL &middot; Python</p>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="p-meta">
+            <p class="p-ctx">Gnani AI Internship Challenge, GAVS Tech4Bharat</p>
+          </div>
+          <div class="p-body">
+            <h3>SonaKhata</h3>
+            <p>
+              A voice-first gold ledger shared between jewellers and karigars. Gold handed out for job
+              work is usually tracked on trust. SonaKhata lets both sides log and check it by speaking,
+              using Gnani's speech-to-text and text-to-speech with a Gemini tool-calling agent in the middle.
+            </p>
+            <p class="stack">Node.js &middot; Express &middot; MongoDB &middot; Gemini &middot; Gnani Prisma &amp; Timbre</p>
+            <p class="p-links">
+              <a class="link-arrow" href="https://sonakhata.vercel.app" target="_blank" rel="noopener">Live</a>
+              <a class="link-arrow" href="https://github.com/AnshuRoy25/Sona-Khata" target="_blank" rel="noopener">Code</a>
+            </p>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="p-meta">
+            <p class="p-ctx">GenAI Mumbai &middot; Top 10 of 418</p>
+          </div>
+          <div class="p-body">
+            <h3>InsureSense</h3>
+            <p>
+              A multi-agent travel insurance advisor that helps travellers pick a policy that
+              actually fits their trip, built on Google's Agent Development Kit and Gemini.
+            </p>
+            <p class="stack">Google ADK &middot; Gemini &middot; Python</p>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="p-meta">
+            <p class="p-ctx">AI Hack Matrix INNOVFEST &middot; 11th of 850+</p>
+          </div>
+          <div class="p-body">
+            <h3>CreditFlow</h3>
+            <p>
+              Alternative credit scoring for new-to-credit borrowers in India. Instead of a bureau score,
+              it models behaviour from bank statements to estimate repayment risk.
+            </p>
+            <p class="stack">Python &middot; Machine learning</p>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="p-meta">
+            <p class="p-ctx">Hardware</p>
+          </div>
+          <div class="p-body">
+            <h3>PalmID</h3>
+            <p>
+              A payment system that identifies people by their palm veins. I wrote the ESP32 firmware and
+              the serial communication between the sensor and a Node.js backend, with a React frontend on top.
+            </p>
+            <p class="stack">ESP32 &middot; DFRobot AI10 &middot; Node.js &middot; React</p>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="p-meta">
+            <p class="p-ctx">Quant finance</p>
+          </div>
+          <div class="p-body">
+            <h3>Options Analytics</h3>
+            <p>
+              A Streamlit app for pricing and inspecting options. Pulls market data, prices with
+              Black-Scholes, computes the Greeks and plots the implied volatility surface in 3D.
+            </p>
+            <p class="stack">Python &middot; Streamlit &middot; yfinance &middot; Plotly</p>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="p-meta">
+            <p class="p-ctx">Team Abraxas &middot; In progress</p>
+          </div>
+          <div class="p-body">
+            <h3>GoTo Telescope Mount</h3>
+            <p>
+              Turning the club's hand-cranked Newtonian into a GoTo telescope that finds and tracks
+              objects on its own. New Dobsonian-style base with full azimuth rotation, NEMA 23 steppers
+              on DM542 drivers, and an ESP32 running OnStep controlled from Stellarium.
+            </p>
+            <p class="stack">ESP32 &middot; OnStep &middot; Stellarium &middot; Stepper motors</p>
+          </div>
+        </article>
+
+        <h3 class="minor-head">Smaller builds</h3>
+        <ul class="minor">
+          <li>
+            <span class="m-name">LunarLander DQN</span>
+            <span class="m-desc">Deep Q-learning agent in PyTorch with replay buffer, target network and soft updates.</span>
+          </li>
+          <li>
+            <span class="m-name">ResearchAI</span>
+            <span class="m-desc">RAG-based research assistant.</span>
+          </li>
+          <li>
+            <span class="m-name">JARVIS</span>
+            <span class="m-desc">Multi-agent assistant with hierarchical intent classification.</span>
+          </li>
+          <li>
+            <span class="m-name">Team Abraxas site</span>
+            <span class="m-desc">Club website in React, Vite, TypeScript and Tailwind, tuned for WebGL performance.</span>
+          </li>
+          <li>
+            <span class="m-name">WorldQuant IQC 2026</span>
+            <span class="m-desc">Took part in the International Quant Championship on WorldQuant BRAIN.</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Campus -->
+    <section class="section wrap" id="campus">
+      <h2 class="label"><span>03</span>Campus</h2>
+      <div class="content">
+        <ul class="rows">
+          <li>
+            <div class="r-title">Team Abraxas <span class="r-role">Co-lead</span></div>
+            <p>Joined in first year, then Executive, now one of two leads. Running workshops for juniors, a Game Theory session, and planning the club's first large hackathon for early 2027.</p>
+          </li>
+          <li>
+            <div class="r-title">RoboSoc <span class="r-role">Executive</span></div>
+            <p>Helped run RoboQuest, the robotics workshop series for freshers, with more than 400 participants.</p>
+          </li>
+          <li>
+            <div class="r-title">Training &amp; Placement Cell <span class="r-role">Digital Team</span></div>
+            <p>Part of the team handling the cell's digital work and communication.</p>
+          </li>
+          <li>
+            <div class="r-title">STEM outreach <span class="r-role">Coordinator</span></div>
+            <p>Manage STEM sessions for government school students, run by the physics department with local schools.</p>
+          </li>
+          <li>
+            <div class="r-title">Team Physteo <span class="r-role">Member</span></div>
+            <p>Physics department technical club.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section wrap" id="skills">
+      <h2 class="label"><span>04</span>Skills</h2>
+      <div class="content">
+        <dl class="skills">
+          <div>
+            <dt>Languages</dt>
+            <dd>JavaScript, TypeScript, Python, C++, SQL, MATLAB</dd>
+          </div>
+          <div>
+            <dt>Backend</dt>
+            <dd>Node.js, Express, FastAPI, MongoDB, PostgreSQL, Supabase, REST, webhooks, cron</dd>
+          </div>
+          <div>
+            <dt>AI / ML</dt>
+            <dd>Google ADK, Gemini, multi-agent systems, RAG, PyTorch, reinforcement learning</dd>
+          </div>
+          <div>
+            <dt>Frontend</dt>
+            <dd>React, Vite, Tailwind, Streamlit</dd>
+          </div>
+          <div>
+            <dt>Cloud &amp; tools</dt>
+            <dd>Azure Blob Storage, Cloudinary, Vercel, Render, Git</dd>
+          </div>
+          <div>
+            <dt>Hardware</dt>
+            <dd>ESP32, stepper motors and drivers, sensor serial interfaces</dd>
+          </div>
+          <div>
+            <dt>Physics &amp; math</dt>
+            <dd>Quantum mechanics, statistical mechanics, spectroscopy, numerical methods (RK4, Monte Carlo, shooting method)</dd>
+          </div>
+          <div>
+            <dt>Finance</dt>
+            <dd>Options pricing, Greeks, volatility surfaces, portfolio theory, backtesting</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section wrap contact" id="contact">
+      <h2 class="label"><span>05</span>Contact</h2>
+      <div class="content">
+        <p class="contact-line">Working on something in backend, fintech or AI? I'm happy to talk.</p>
+        <ul class="contact-list">
+          <!-- EDIT: put your email in both places below and uncomment
+          <li><span>Email</span><a href="mailto:you@example.com">you@example.com</a></li>
+          -->
+          <li><span>GitHub</span><a href="https://github.com/AnshuRoy25" target="_blank" rel="noopener">github.com/AnshuRoy25</a></li>
+          <!-- EDIT: put your LinkedIn URL below and uncomment
+          <li><span>LinkedIn</span><a href="https://www.linkedin.com/in/your-handle" target="_blank" rel="noopener">linkedin.com/in/your-handle</a></li>
+          -->
+          <li><span>Based in</span><p>Hamirpur, Himachal Pradesh</p></li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <p>&copy; <span id="year">2026</span> Anshu Roy</p>
+      <a href="#top">Back to top</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
